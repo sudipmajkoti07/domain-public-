@@ -1,0 +1,37 @@
+/* App.css */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the projects horizontally */
+    align-items: center; /* Center the projects vertically */
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally inside each project */
+    margin: 20px;
+  }
+  
+  .project-image {
+    width: 100%; /* Make the image div take the full width of its parent */
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .project-details {
+    flex: 2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .technologies {
+    margin-top: 10px;
+    color: #555;
+    font-style: italic;
+  }
+  

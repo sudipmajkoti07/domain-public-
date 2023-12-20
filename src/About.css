@@ -1,0 +1,33 @@
+/* About.css */
+.about {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-image img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+  }
+  
+  .about-image img:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+  }
+  

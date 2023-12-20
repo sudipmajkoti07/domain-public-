@@ -1,0 +1,39 @@
+/* Skills.css */
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+  padding: 20px; /* Adjust spacing */
+}
+
+.left-container,
+.middle-container,
+.right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.wire-container {
+  position: relative;
+  flex: 0 0 20px; /* Adjust the width of the wire */
+}
+
+.wire {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px; /* Adjust the thickness of the wire */
+  background-color: #333;
+}
