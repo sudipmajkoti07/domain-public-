@@ -4,9 +4,9 @@ import './Projects.css';
 
 const Projects = () => {
   const projectsData = [
-    { name: 'Deploy Api in aws', technologies: 'Fastapi , python ,aws' },
-    { name: 'Spotify pipeline', technologies: 'python, aws ec2, airflow , linux' },
-    { name: 'twitter pipeline', technologies: 'aws ec2 , aws s3, airflow , pandas' },
+    { name: '1', technologies: 'Fastapi , python ,aws' },
+    { name: '2', technologies: 'python, aws ec2, airflow , linux' },
+    { name: '3', technologies: 'aws ec2 , aws s3, airflow , pandas' },
     // Add more projects as needed
   ];
 
