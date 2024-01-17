@@ -6,11 +6,14 @@ import SkillsComponent from './SkillsComponent';
 import ContactComponent from './ContactComponent';
 
 const skillsData = [
-  { title: 'Bootstrap', description: 'Bootstrap is a front-end framework...', progress: 85, barWidth: 1 },
-  { title: 'React', description: 'React is a JavaScript library for building...', progress: 75, barWidth: 2 },
-  { title: 'Vue', description: 'Vue is a progressive JavaScript framework...', progress: 65, barWidth: 3 },
-  { title: 'WordPress', description: 'WordPress is a content management system...', progress: 95, barWidth: 4 },
-  { title: 'WordPress', description: 'WordPress is a content management system...', progress: 95, barWidth: 4 },
+  { title: 'Programming', description: 'python,JS', progress: 85, barWidth: 1 },
+  { title: 'Frontend', description: 'React', progress: 75, barWidth: 2 },
+  { title: 'Database', description: 'MYsql', progress: 85, barWidth: 3 },
+  { title: 'Data manipulation', description: 'pandas, pyspark ,seaborn', progress: 90, barWidth: 4 },
+  { title: 'Data modeling', description: 'dimensional modeling', progress: 80, barWidth: 4 },
+  { title: 'Data analytics', description: 'Powerbi', progress: 70, barWidth: 4 },
+  { title: 'ETL framework', description: 'Airflow', progress: 50, barWidth: 4 },
+  { title: 'cloud ', description: 'AWS', progress: 50, barWidth: 4 },
 ];
 
 function App() {

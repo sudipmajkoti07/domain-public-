@@ -4,9 +4,16 @@ import './Projects.css';
 
 const Projects = () => {
   const projectsData = [
-    { name: '1', technologies: 'Fastapi , python ,aws' },
-    { name: '2', technologies: 'python, aws ec2, airflow , linux' },
-    { name: '3', technologies: 'aws ec2 , aws s3, airflow , pandas' },
+    { name: 'ETL of weather api', technologies: 'python,airflow,pandas,weatherapi,aws s3' },
+    { name: 'ETL of jobs portal', technologies: 'python, airflow , aws s3, aws ec2, pandas , requests, beautifulsoup' },
+    { name: 'ETL of twitter api', technologies: 'aws ec2 , aws s3, airflow , pandas,twitter api,python' },
+    { name: 'Data modeling of HR', technologies: 'MYsql,powerBI' },
+    { name: 'supermarket dashboard', technologies: 'powerBI' },
+    { name: 'Hospital management system', technologies: 'python' },
+    { name: 'personal portfolio', technologies: 'js, React' },
+    { name: 'Machine learning models', technologies: 'supervised/unsupervised LM' },
+    { name: 'EDA of sales', technologies: 'pandas/pyspark' },
+    // Add more projects as needed
     // Add more projects as needed
   ];
 
