@@ -7,7 +7,7 @@ const Projects = () => {
     { name: 'ETL of weather api', technologies: 'python,airflow,pandas,weatherapi,aws s3' },
     { name: 'ETL of jobs portal', technologies: 'python, airflow , aws s3, aws ec2, pandas , requests, beautifulsoup' },
     { name: 'ETL of twitter api', technologies: 'aws ec2 , aws s3, airflow , pandas,twitter api,python' },
-    { name: 'Data modeling of HR', technologies: 'MYsql,powerBI' },
+    { name: 'Data modeling of HR', technologies: 'Mysql,powerBI' },
     { name: 'supermarket dashboard', technologies: 'powerBI' },
     { name: 'Hospital management system', technologies: 'python' },
     { name: 'personal portfolio', technologies: 'js, React' },
