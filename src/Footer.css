@@ -1,0 +1,29 @@
+/* Footer.css */
+
+.footer {
+    background-color: #2c4c9c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-links {
+    margin-top: 2px; /* Adjust the margin as needed */
+  }
+  
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2px;
+  }
+  
+  /* Add more styles as needed */
+  

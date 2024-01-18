@@ -21,8 +21,8 @@ const About = () => {
           <img
             src={ram}
             alt="Your Name"
-            width="300"
-            height="300"
+            width="250"
+            height="250"
           />
         </div>
       </div>

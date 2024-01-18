@@ -58,7 +58,7 @@ const ContactComponent = () => {
               </div>
               <div className="mb-3">
                 <label htmlFor="message" className="form-label">Message:</label>
-                <textarea
+                <input
                   className="form-control"
                   id="message"
                   name="message"
@@ -66,7 +66,7 @@ const ContactComponent = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                ></textarea>
+                ></input>
               </div>
               <div className="text-center">
                 <button type="submit" className="btn btn-primary">Send Message</button>

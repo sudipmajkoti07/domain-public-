@@ -4,6 +4,8 @@ import About from './About';
 import Projects from './Projects';
 import SkillsComponent from './SkillsComponent';
 import ContactComponent from './ContactComponent';
+import Footer from './Footer';
+
 
 const skillsData = [
   { title: 'Programming', description: 'python,JS', progress: 85, barWidth: 1 },
@@ -25,6 +27,7 @@ function App() {
       <Projects />
       <SkillsComponent skills={skillsData} />
       <ContactComponent/>
+      <Footer />
   
      
     </div>
